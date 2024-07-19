@@ -1,0 +1,132 @@
+.anniv {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    top: 0;
+    margin-top: -40px;
+    overflow: hidden;
+}
+
+.annivvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/image1.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.819);
+    z-index: 2;
+}
+
+.overText {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.redressed {
+    font-family: redressed;
+    font-size: 8vw;
+    /* Use vw for responsive font size */
+    color: #2DC08D;
+}
+
+.date {
+    color: white;
+    font-size: 6vw;
+    /* Use vw for responsive font size */
+    padding-bottom: 0;
+}
+
+.radi,
+.donat {
+    padding: 9px;
+    background-color: #2DC08D;
+    border: #2DC08D;
+    border-radius: 5px;
+    z-index: 3;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.radi {
+    margin-right: 10px;
+}
+
+.donat {
+    color: white;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .redressed {
+        font-size: 12vw;
+        /* Increase font size on smaller screens */
+    }
+
+    .date {
+        font-size: 9vw;
+        /* Increase font size on smaller screens */
+    }
+
+    .overText {
+        margin-top: 200px;
+    }
+
+    .radi,
+    .donat {
+        margin-top: 15px;
+        padding: 7px;
+        font-size: 4vw;
+    }
+
+    .buttons {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .redressed {
+        font-size: 14vw;
+        /* Increase font size on very small screens */
+    }
+
+    .date {
+        font-size: 12vw;
+        /* Increase font size on very small screens */
+    }
+
+    .overText {
+        margin-top: 150px;
+    }
+
+    .radi,
+    .donat {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 5vw;
+    }
+
+    .buttons {
+        margin-left: 0;
+    }
+}

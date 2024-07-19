@@ -1,0 +1,35 @@
+.herosection {
+    /* background-color: #697973; */
+    height: 60vh;
+    margin-top: -108px;
+    z-index: 3;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dat {
+    color: #2DC08D;
+    font-size: 90px;
+    padding-bottom: 0px;
+}
+
+.redresse {
+    font-family: redressed;
+    font-size: 115px;
+    color: black
+    ;
+}
+
+.heropara {
+    margin-top: -100px;
+    align-items: center;
+    line-height: 23px;
+    width: 60%;
+    margin-left: 300px;
+}
+sup{
+    color: black;
+}
+.number{
+    color: black;
+}
