@@ -1,0 +1,46 @@
+.textpara{
+   width: 60%;
+   text-align: left;
+   margin-left: 330px;
+   margin-top: -14px;
+}
+.Logos{
+    width: 100px;
+    height: 50px;
+    background-image: url(./assets/cropped-uwezo-logo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 260px;
+    /* margin-bottom:- 190px; */
+    margin-top: 50px;
+}
+.button {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -670px;
+}
+.radii,
+.donatt {
+    padding: 9px;
+    background-color: #2DC08D;
+    border: #2DC08D;
+    border-radius: 3px;
+    z-index: 3;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.radii {
+    margin-right: 10px;
+    color: white;
+}
+
+.donatt {
+    color: white;
+}
+.Lastpara{
+    margin-bottom: 50px;
+}

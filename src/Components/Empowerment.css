@@ -1,0 +1,61 @@
+.empcards{
+    background-color: rgba(15, 56, 42, 0.95);
+    text-align: center;
+    color: white;
+    padding: 23px;
+}
+.emphead{
+    color: rgba(253, 203, 25, 1);
+}
+h3{
+    color: white;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.year-card {
+    background-color: rgba(15, 56, 42, 1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+}
+.titlecol{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.year-card img {
+    width: 100%;
+    height: auto;
+}
+.coloyear{
+    color: rgba(45, 192, 141, 1);
+    font-size: 30px;
+}
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+  
+}
+
+.pagination span {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #31593c;
+
+    
+}

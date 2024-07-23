@@ -4,7 +4,7 @@ import'./Registration.css'
 const Registration = () => {
   return (
     <div className='eventregistration'>
-      <h4 className='firstheading'>The 10<sup>Th</sup>Year</h4>
+      <h4 className='firstheading'>The 10<sup>Th </sup>  Year</h4>
       <h4 className='secheading'>Not just an Anniversary but a Festival</h4>
       <div className='backgroundDiv'>
        <div className='form'>
