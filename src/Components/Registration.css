@@ -37,6 +37,9 @@
    
     
 }
+.regtitle{
+    color: black;
+}
 .form-container {
     background-color: #2DC08D;
     padding: 20px;
@@ -59,7 +62,7 @@
    padding-left: 15px;
 }
 
-.line {
+.line12 {
     width: 100%;
     border-bottom: 2px solid #fff;
 }

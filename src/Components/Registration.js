@@ -9,25 +9,25 @@ const Registration = () => {
       <div className='backgroundDiv'>
        <div className='form'>
         <div className='rightside'>
-          <h3>Reserve your seat</h3>
+          <h3 className='regtitle'>Reserve your seat</h3>
           <p>Secure your seat today to support and empower youth and children with disabilities! Limited spots are available, so act fast to be part of this impactful event. Join us in advocating for their rights and opportunities.</p>
         </div>
         <div className="form-container">
           <div className="form-group">
              <label>Full name</label>
-               <div className="line"></div>
+               <div className="line12"></div>
           </div>
           <div className="form-group">
              <label>Telephone number</label>
-              <div className="line"></div>
+              <div className="line12"></div>
           </div>
           <div className="form-group">
              <label>Address</label>
-              <div className="line"></div>
+              <div className="line12"></div>
           </div>
           <div className="form-group">
              <label>Email</label>
-              <div className="line"></div>
+              <div className="line12"></div>
           </div>
           <button className='regbutton'>Send</button>
        </div>

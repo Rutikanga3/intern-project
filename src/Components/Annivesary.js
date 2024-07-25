@@ -9,8 +9,10 @@ const Annivesary = () => {
       <div className='overText'>
         <p className='date'>10<sup>th</sup><br/><span className='redressed'>Annivesary</span></p><br></br>
         <div className='buttons'>
-          <button className='radi'> UWEZO RADIO</button>
-           <button className='donat'>DONATE</button>
+          <a href='https://uwezoradio.com/' target="_blank" rel="noopener noreferrer">
+          <button className='radi'> UWEZO RADIO</button></a>
+          <a href='https://www.bonterratech.com/product/fundraising-software' target="_blank" rel="noopener noreferrer">
+           <button className='donat'>DONATE</button></a>
         </div>
         
       </div>
