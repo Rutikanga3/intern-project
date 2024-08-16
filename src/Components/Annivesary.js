@@ -11,6 +11,7 @@ const Annivesary = () => {
         <div className='buttons'>
           <a href='https://www.flickr.com/photos/138034566@N04/' target="_blank" rel="noopener noreferrer">
           <button className='radi'> UWEZO GALLERY</button></a>
+        
           <a href='https://www.bonterratech.com/product/fundraising-software' target="_blank" rel="noopener noreferrer">
            <button className='donat'>DONATE</button></a>
         </div>

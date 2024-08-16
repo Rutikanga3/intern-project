@@ -10,8 +10,10 @@ const Secondlast = () => {
         <div className='button'>
           {/* <button className='radii'> UWEZO RADIO</button> */}
            {/* <button className='donatt'>DONATE</button> */}
+
            <a href='https://www.flickr.com/photos/138034566@N04/' target="_blank" rel="noopener noreferrer">
           <button className='radii'> UWEZO GALLERY</button></a>
+
           <a href='https://www.bonterratech.com/product/fundraising-software' target="_blank" rel="noopener noreferrer">
            <button className='donatt'>DONATE</button></a>
         </div>

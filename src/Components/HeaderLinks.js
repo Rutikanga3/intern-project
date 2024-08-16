@@ -14,6 +14,7 @@ const HeaderLinks = () => {
            <Link to='/' className='link1'>10<sup>th</sup> ANNIVERSARY</Link>
             <a href='https://www.flickr.com/photos/138034566@N04' target="_blank" rel="noopener noreferrer">
             <button className='radio'> UWEZO GALLERY</button></a>
+
             <a href='https://www.bonterratech.com/product/fundraising-software' target="_blank" rel="noopener noreferrer">
             <button className='donate'>DONATE</button></a>
         </div>
