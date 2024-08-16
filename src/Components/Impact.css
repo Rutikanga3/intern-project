@@ -70,11 +70,22 @@ svg{
     margin-left: -35px;
 }
 .slidebtn1{
-    color:#2DC08D ;
+    color:#ffffff ;
 }
 .slidebtn2 {
     color: #ffffff;
 }
 .slidebtn3 {
     color: #ffffff;
+}
+.slidebtn1:hover {
+    color: #2DC08D;
+}
+
+.slidebtn2 :hover {
+    color: #2DC08D;
+}
+
+.slidebtn3:hover {
+    color: #2DC08D;
 }

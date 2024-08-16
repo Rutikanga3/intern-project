@@ -43,6 +43,7 @@
     background-color: #2DC08D;
     border: #2DC08D;
     border-radius: 5px;
+    cursor: pointer;
 }
 .donate{
     margin-left: 10px;
@@ -51,4 +52,5 @@
     border: #2DC08D;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
