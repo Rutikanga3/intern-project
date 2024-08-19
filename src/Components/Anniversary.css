@@ -54,19 +54,19 @@
 
 .radi,
 .donat {
-    padding: 15px;
+    padding: 0.9375rem;
     background-color: #2DC08D;
     border: #2DC08D;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     z-index: 3;
     position: relative;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: inline-block;
     cursor: pointer;
 }
 
 .radi {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .donat {
