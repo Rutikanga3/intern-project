@@ -32,6 +32,7 @@ const Registration = () => {
       .then((result) => {
         console.log('Email successfully sent!', result.status, result.text);
         alert('Email successfully sent!');
+         window.location.href = 'https://www.eventbrite.com/e/995895810177?aff=oddtdtcreator';
       })
       .catch((error) => {
         console.log('Failed to send email. Error:', error);
@@ -102,7 +103,7 @@ const Registration = () => {
               />
               {/* <div className="line12"></div> */}
             </div>
-            <button type="submit" className='regbutton'>Send</button>
+            <a href='https://www.eventbrite.com/e/995895810177?aff=oddtdtcreator' target="_blank" rel="noopener noreferrer"><button type="submit" className='regbutton'>Send</button></a>
           </form>
         </div>
       </div>
